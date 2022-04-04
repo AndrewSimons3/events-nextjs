@@ -1,7 +1,14 @@
+import { getFeaturedEvents } from "../dummy-data";
+
 const HomePage = () => {
+
+  const featuredEvents = getFeaturedEvents();
+
   return (
-    <div><h1>This is the Home Page</h1></div>
-  )
+    <div>
+      <ul></ul>
+    </div>
+  );
 }
 
 export default HomePage;
